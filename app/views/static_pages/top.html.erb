@@ -1,2 +1,5 @@
-<h1>StaticPages#top</h1>
-<p>Find me in app/views/static_pages/top.html.erb</p>
+<% provide(:title, "Top")%>
+  <title><%= yield(:title) %> |AttendanceApp</title>
+ 
+  <h1>勤怠管理システム</h1>
+  <p>ログインはこちらから</p>
